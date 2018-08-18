@@ -1,3 +1,4 @@
+*** pulling one tow at a time ***
 from mysql.connector import MySQLConnection, Error
 from mysql_dbconfig import read_db_config
  
