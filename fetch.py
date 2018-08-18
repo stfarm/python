@@ -1,4 +1,4 @@
-*** pulling one tow at a time ***
+### pull one record ###
 from mysql.connector import MySQLConnection, Error
 from mysql_dbconfig import read_db_config
  
@@ -23,6 +23,7 @@ def query_with_fetchone():
         cursor.close()
         conn.close()
  
- 
+### test ###
+### onw more ###
 if __name__ == '__main__':
     query_with_fetchone()
